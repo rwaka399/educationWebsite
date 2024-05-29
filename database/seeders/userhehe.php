@@ -15,10 +15,10 @@ class userhehe extends Seeder
     public function run(): void
     {
         User::create([
-            'name'      =>  "ocid",
-            'email'     =>  "ocid@gmail.com",
-            'password'  =>  Hash::make("author"),
-            'type'      =>  '2'
+            'name'      =>  "admin2",
+            'email'     =>  "admin2@gmail.com",
+            'password'  =>  Hash::make("adminadmin"),
+            'type'      =>  '1'
         ]);
     }
 }
